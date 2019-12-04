@@ -75,11 +75,6 @@ class ScaffoldGeneratorTest < Rails::Generators::TestCase
     end
   end
 
-  test "template eco file is created" do
-    run_generator ['planet']
-    assert_file "#{template_path}/planets/index.jst.eco"
-  end
-
   test "template jst file is created" do
     run_generator ['planet', '--javascript']
     assert_file "#{template_path}/planets/index.jst.ejs"

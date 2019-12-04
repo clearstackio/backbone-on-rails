@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'railties'
   s.add_dependency 'jquery-rails'
   s.add_dependency 'ejs'
-  s.add_dependency 'eco'
 
   s.add_development_dependency 'rails', '3.2'
   s.add_development_dependency 'sqlite3'
